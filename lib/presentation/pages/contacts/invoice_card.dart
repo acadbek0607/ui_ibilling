@@ -36,7 +36,7 @@ class InvoiceCard extends StatelessWidget {
                     ),
                     SizedBox(width: 8.0),
                     Text(
-                      '№ $data.invoiceNumber',
+                      '№ ${data.invoiceNumber}',
                       style: Kstyle.tStyle.copyWith(
                         fontWeight: FontWeight.bold,
                       ),
@@ -103,7 +103,7 @@ class InvoiceCard extends StatelessWidget {
                 children: [
                   TextSpan(text: 'Last invoice: ', style: Kstyle.tStyle),
                   TextSpan(
-                    text: '№ $data.lastInvoiceNumber',
+                    text: '№ ${data.lastInvoiceNumber}',
                     style: Kstyle.tStyle.copyWith(color: Color(0xFF999999)),
                   ),
                 ],
@@ -122,7 +122,7 @@ class InvoiceCard extends StatelessWidget {
                         style: TextStyle(fontWeight: FontWeight.w700),
                       ),
                       TextSpan(
-                        text: '$data.invoiceCount',
+                        text: '${data.invoiceCount}',
                         style: TextStyle(color: Color(0xFF999999)),
                       ),
                     ],

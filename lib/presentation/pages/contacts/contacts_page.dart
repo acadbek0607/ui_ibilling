@@ -70,6 +70,9 @@ class _ContactsPageState extends State<ContactsPage> {
                           });
                         },
                         style: Kstyle.buttonStyle.copyWith(
+                          padding: WidgetStateProperty.all<EdgeInsetsGeometry>(
+                            EdgeInsets.symmetric(horizontal: 20),
+                          ),
                           backgroundColor: isSelected
                               ? WidgetStateProperty.all<Color>(
                                   Color(0xFF00A795),
