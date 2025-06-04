@@ -1,0 +1,63 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Android
+android/.gradle/
+android/app/build/
+*.keystore
+
+# iOS/macOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+ios/Runner.xcworkspace/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/build/
+macos/Flutter/Flutter.framework
+macos/Flutter/Flutter.podspec
+macos/Pods/
+macos/.symlinks/
+macos/Runner.xcworkspace/
+macos/build/
+
+# Web
+web/.dart_tool/
+web/build/
+
+# Linux
+linux/build/
+
+# Windows
+windows/build/
+
+# Fuchsia
+.fuchsia/
+
+# Other
+*.log
+*.lock
+*.DS_Store
+*.class
+*.jar
+*.war
+*.ear
+
+# Firebase/Crashlytics
+*.firebase/
+firebase_app_id_file.json
+
+# Symbol files
+*.symbols
+*.dSYM
